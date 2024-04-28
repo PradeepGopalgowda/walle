@@ -77,4 +77,4 @@ def generate_text():
         return jsonify({"text": "No response received from the API."})
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
