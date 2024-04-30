@@ -1,2 +1,4 @@
-Flask
+flask
+slack-sdk
+slackeventsapi
 requests
