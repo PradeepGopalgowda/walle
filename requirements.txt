@@ -2,3 +2,4 @@ flask
 slack-sdk
 slackeventsapi
 requests
+aiohttp
