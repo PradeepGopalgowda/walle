@@ -55,7 +55,7 @@ def text_generation(input_text):
             "repetition_penalty": 1
         },
         "model_id": "meta-llama/llama-3-8b-instruct",
-        "project_id": "2ea1b7a7-c453-421f-88b7-97ac55bd90e3"
+        "project_id": os.environ.get('PROJECT_ID')
     }
     headers = {
         "Accept": "application/json",
